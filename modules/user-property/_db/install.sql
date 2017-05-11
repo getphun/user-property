@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS `user_property` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `user` INTEGER NOT NULL,
+    `name` VARCHAR(50) NOT NULL,
+    `value` TEXT,
+    `updated` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    `created` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    
+    PRIMARY KEY(
+        `id`,
+        `user`
+    )
+)
+    PARTITION BY KEY(`user`)
+    PARTITIONS 50;
