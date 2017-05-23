@@ -20,7 +20,7 @@ return [
             'label' => 'Avatar',
             'rules' => [
                 'file' => 'image/*'
-            ]
+            ],
             'format' => 'media'
         ],
         'birthday' => [
@@ -35,4 +35,4 @@ return [
 ];
 ```
 
-Silahkan mengacu ke wiki untuk informasi lebih lanjut tentang konfigurasi user properti.
+Silahkan mengacu pada wiki untuk informasi lebih lanjut tentang konfigurasi user properti.
