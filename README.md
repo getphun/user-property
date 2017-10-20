@@ -16,7 +16,8 @@ return [
     ...
     'user_property' => [
         'avatar' => [
-            'type'  => 'image',
+            'form-position' => 'center',
+            'type'  => 'file',
             'label' => 'Avatar',
             'rules' => [
                 'file' => 'image/*'
@@ -24,6 +25,7 @@ return [
             'format' => 'media'
         ],
         'birthday' => [
+            'form-position' => 'left',
             'type'  => 'date',
             'label' => 'Birthday',
             'rules' => [
