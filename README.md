@@ -37,4 +37,5 @@ return [
 ];
 ```
 
-Silahkan mengacu pada wiki untuk informasi lebih lanjut tentang konfigurasi user properti.
+Silahkan mengacu pada wiki untuk informasi lebih lanjut tentang konfigurasi user
+properti.
